@@ -1,0 +1,26 @@
+/* sheet 2 . 5
+   Ibrahim Mohamed Ibrahim Othman
+*/
+package Sheets;
+
+
+public class Problem5{
+
+    public static void main(String[] arg) {
+        float divident = 350;
+        float divisor = 30;
+        float counter = 1;
+        float helper = divident - divisor ;
+        float n = 250;
+    /***************************************/
+        while(helper>=divisor){ 
+            helper = helper - divisor ;
+            counter = counter +1;
+        }
+        n=helper/divisor;
+        System.out.print("The integer number is " +counter + "\n" +"The remaining number"+ n);
+        
+        
+    }
+    
+}
